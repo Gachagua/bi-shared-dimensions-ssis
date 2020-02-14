@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HRDatawarehouseStaging"
+  DTS:DTSID="{08367C58-68B6-4EC1-97A1-35A56B9A87B3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=mtama.oneacrefund.org;User ID=HRSSIS0001;Initial Catalog=OAF_HR_DATAWAREHOUSE_STAGING;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="MmicENkQ+g=="
+        p4:IV="nRw88jIGMKQ=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">V/XBwRjEnXWgL+hLJVNjbil+4U4KgFXqsbqCz9XbeZZVpu4PnOu6EFcde5LlhtVRMxBCSxUqfMt/7j3d7e3cWu4p03t66lgnuXQ6sV3LFS48oAIfjbeg2alitIlQOeANaUP5bo9skFmbaYLvOFQh0YgxMg1GmYTaLsXTez2XbWg=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
